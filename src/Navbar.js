@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
 
-const Navbar = () => {
+const Navbar = (props) => {
 
     return (
         <div className="navArea">
             <div className="navLink">
-                <a>header</a>
+                <p onClick={props.activeHeader}>HEADER</p>
             </div>
             <div className="navLink">
-                <a>body</a>
+                <p onClick={props.activeProjects}>PROJECTS</p>
             </div>
             <div className="navLink">
-                <a>footer</a>
+                <p onClick={props.activeContact}>CONTACT</p>
             </div>
         </div>
     )
