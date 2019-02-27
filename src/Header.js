@@ -4,7 +4,7 @@ const Header = () => {
 
 
     return (
-        <div>
+        <div className="HeaderArea">
             <h1>Header Area</h1>
             <p>lorem ipsum</p>
         </div>
