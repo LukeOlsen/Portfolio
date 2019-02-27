@@ -6,8 +6,7 @@ const Contact = () => {
 
     return (
         <div>
-            <FontAwesomeIcon icon="faTwitter" />
-            <h1>CONTACT ME HERE</h1>
+            <h1><FontAwesomeIcon icon="faTwitter" />CONTACT ME HERE</h1>
         </div>
     )
 }
