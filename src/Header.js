@@ -5,7 +5,7 @@ const Header = () => {
 
     return (
         <div className="HeaderArea">
-            <h1>Header Area</h1>
+            <h1 class="WelcomeText">WELCOME</h1>
             <p>lorem ipsum</p>
         </div>
     )
