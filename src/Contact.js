@@ -5,7 +5,7 @@ import { faTwitter } from '@fortawesome/free-solid-svg-icons'
 const Contact = () => {
 
     return (
-        <div>
+        <div className="ContactDisplay">
             <h1><FontAwesomeIcon icon="faTwitter" />CONTACT ME HERE</h1>
         </div>
     )

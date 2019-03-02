@@ -49,7 +49,9 @@ class App extends Component {
           activeProjects={this.activeProjects}
           activeContact={this.activeContact}
         />
-        {this.whatIsActive()}
+        <Header />
+        <Projects />
+        <Contact />
       </div>
     );
   }
