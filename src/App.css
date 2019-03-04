@@ -40,7 +40,7 @@ html, body {
 }
 
 .WelcomeText {
-  font-size: 7em;
+  font-size: 5em;
   letter-spacing: 0.1em;
 }
 
@@ -110,6 +110,19 @@ p {
 }
 
 @keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+@keyframes GradientBorder {
 	0% {
 		background-position: 0% 50%
 	}
