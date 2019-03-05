@@ -14,6 +14,20 @@ const Projects = () => {
                         <p>solar met</p>
                     </div>
                 </div>
+                <div className="ProjectCard">
+                    <div className="PictureCard"></div>
+                    <div class="InfoCard">
+                        <h4>lorem ipsum</h4>
+                        <p>solar met</p>
+                    </div>
+                </div>
+                <div className="ProjectCard">
+                    <div className="PictureCard"></div>
+                    <div class="InfoCard">
+                        <h4>lorem ipsum</h4>
+                        <p>solar met</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
